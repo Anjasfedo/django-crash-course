@@ -1,9 +1,19 @@
 virtual env wrapper
 `pip install virtualenvwrapper-win`
 
-`mkvirtualenv [name]`
+make virtual env
+`mkvirtualenv [virtual name]`
 
-`workon [name]`
+active the virtual env
+`workon [virtualname]`
+
+deadactive the virtual env
+`deactivate`
 
 django
-`django-admin startproject [name]`
+
+create django project
+`django-admin startproject [project name]`
+
+create django app
+`python manage.py startapp [app name]`
