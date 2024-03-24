@@ -17,3 +17,6 @@ create django project
 
 create django app
 `python manage.py startapp [app name]`
+
+run project
+`python manage.py runserver`
