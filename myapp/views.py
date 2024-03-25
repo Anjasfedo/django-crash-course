@@ -15,10 +15,10 @@ def index(request):
     return render(request, 'index.html', context)
 
 def counter(request):
-    words = request.POST['words']
+    posts = [1, 2, 3, 4, 5, 'a', 'b', 'c']
     
     context = {
-        'amount_of_words': len(words.split())
+        'posts': posts
     }
     
     return render(request, 'counter.html', context)
@@ -70,3 +70,9 @@ def logout(request):
     auth.logout(request)
 
     return redirect('/')
+
+def posts(request, path):
+    context = {
+        'path': path
+    }
+    return render(request, 'posts.html', context)
