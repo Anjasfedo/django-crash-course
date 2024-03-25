@@ -31,3 +31,7 @@ open django admin panel on path `/admin`
 
 create superuser admin
 `python manage.py createsuperuser`
+
+`pip install psycopg2`
+
+`pip install Pillow`
