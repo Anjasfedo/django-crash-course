@@ -20,3 +20,18 @@ create django app
 
 run project
 `python manage.py runserver`
+
+create migration
+`python manage.py makemigrations`
+
+migrate the database
+`pythob manage.py migrate`
+
+open django admin panel on path `/admin`
+
+create superuser admin
+`python manage.py createsuperuser`
+
+`pip install psycopg2`
+
+`pip install Pillow`
